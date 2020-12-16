@@ -24,4 +24,6 @@ prevent the capacitor from discharging into the output of the regulator
 
 Vo is calculated as shown in Equation below. Iadj is typically 50 µA and negligible in most applications.
 
-Vo = VREF (1 + R2 / R1) + (Iadj × R2)
+Vo = Vref (1 + R2 / R1) + (Iadj × R2)
+
+The voltage across the feedback resistor R1 is about 1.25V constant. Due to this reference voltage, a constant current of 100uA flows through the adjust terminal. Due to the 1.25V reference voltage, a current flows through resistor R2.
