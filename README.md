@@ -21,3 +21,7 @@ prevent the capacitor from discharging into the output of the regulator.
 
 6. Protection diode D1 is recommended if CO is used. The diode provides a low-impedance discharge path to
 prevent the capacitor from discharging into the output of the regulator
+
+Vo is calculated as shown in Equation below. Iadj is typically 50 µA and negligible in most applications.
+
+Vo = VREF (1 + R2 / R1) + (Iadj × R2)
